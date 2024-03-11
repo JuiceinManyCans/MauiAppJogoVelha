@@ -81,6 +81,21 @@
             if (btn12.Text == "O" && btn21.Text == "O" && btn30.Text == "O")
                 DisplayAlert("Parabéns", "O O ganhou", "Fechar");
 
+            if
+           (btn10.IsEnabled == false &&
+            btn11.IsEnabled == false &&
+            btn12.IsEnabled == false &&
+            btn21.IsEnabled == false &&
+            btn22.IsEnabled == false &&
+            btn20.IsEnabled == false &&
+            btn30.IsEnabled == false &&
+            btn31.IsEnabled == false &&
+            btn32.IsEnabled == false
+            ) 
+
+            {
+                DisplayAlert("Que pena!", "O jogo deu velha", "Fechar");
+            }
         }
     } //Fecha a classe Mainpage
 
